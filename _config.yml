@@ -3,7 +3,10 @@ title: Jeff's Blog
 description: Software development thoughts and findings.
 google_analytics: [UA-97044033-1]
 top_post: 
-- { title: 'Developing Software at a Startup', href: '/devprocess.html' }
+- { title: 'Developing Software at a Startup',                href: '/devprocess.html' }
 nav:
 exclude:
 - README.md
+repository: jeffgabriel/jeffgabriel.github.io
+encoding: utf-8
+markdown: kramdown

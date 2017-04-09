@@ -286,3 +286,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+#Jekyll Build
+_site/
+
+#Ruby
+gemfile.lock
