@@ -20,5 +20,3 @@ I occassionally tweet mostly non-technical stuff.
 I work for an incredibly exciting startup called <a href="http://www.nexosis.com" target="_blank">Nexosis</a> where we build software to enable more developers to use Machine Learning.
 
 You can see more about who I am and have been professionally over on <a href="https://www.linkedin.com/in/jeff-gabriel-88395b">LinkedIn</a>.
-
-<a href="https://twitter.com/jeffgabriel" class="twitter-follow-button" data-show-count="false">Follow me on Twitter</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
