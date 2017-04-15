@@ -2,7 +2,7 @@
 title: welcome
 layout: default
 description: introduction page for jeff gabriel's blog
-copyright &copy; 2017 Jeff Gabriel
+copyright: copyright &copy; 2017 Jeff Gabriel
 ---
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
