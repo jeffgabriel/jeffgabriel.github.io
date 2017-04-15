@@ -2,6 +2,7 @@
 title: welcome
 layout: default
 description: introduction page for jeff gabriel's blog
+copyright &copy; 2017 Jeff Gabriel
 ---
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
@@ -19,4 +20,4 @@ I occassionally tweet mostly non-technical stuff.
 
 I work for an incredibly exciting startup called <a href="http://www.nexosis.com" target="_blank">Nexosis</a> where we build software to enable more developers to use Machine Learning.
 
-You can see more about who I am and have been professionally over on <a href="https://www.linkedin.com/in/jeff-gabriel-88395b">LinkedIn</a>.
+You can see more about who I am and have been professionally over on <a href="https://www.linkedin.com/in/jeff-gabriel-88395b" target="_blank">LinkedIn</a>.

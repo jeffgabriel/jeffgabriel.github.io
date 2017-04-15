@@ -10,3 +10,7 @@ exclude:
 repository: jeffgabriel/jeffgabriel.github.io
 encoding: utf-8
 markdown: kramdown
+gems:
+  - jekyll-feed
+author:
+  twitter: jeffgabriel
