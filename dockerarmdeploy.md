@@ -1,7 +1,7 @@
 ﻿---
-title: VM Hosted Docker ARM Deployments
+title: Azure ARM Deployment of Docker
 layout: default
-description: automated deployment of Docker containers to an Azure environment via resource manager templates
+description: deploy a docker container to a VM via ARM deployment template
 copyright: copyright &copy; 2017 Jeff Gabriel
 ---
 ## {{page.title}}
