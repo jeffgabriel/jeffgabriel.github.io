@@ -2,7 +2,7 @@
 title: VM Hosted Docker ARM Deployments
 description: automated deployment of Docker containers to an Azure environment via resource manager templates (ARM)
 copyright: copyright &copy; 2017 Jeff Gabriel
-published: 04/15/2017
+published: 04-15-2017
 ---
 ## {{page.title}}
 
