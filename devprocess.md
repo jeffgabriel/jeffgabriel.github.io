@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Developing Software at a Startup
+copyright: copyright &copy; 2017 Jeff Gabriel
 ---
 ## {{page.title}}
 
