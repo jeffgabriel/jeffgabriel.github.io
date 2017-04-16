@@ -292,3 +292,5 @@ _site/
 
 #Ruby
 gemfile.lock
+
+.vscode/
