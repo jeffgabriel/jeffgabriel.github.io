@@ -1,4 +1,4 @@
-﻿---
+---
 title: Azure ARM Deployment of Docker
 layout: default
 description: deploy a docker container to a VM via ARM deployment template
