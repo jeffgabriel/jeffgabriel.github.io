@@ -7,7 +7,12 @@ copyright: copyright &copy; 2017 Jeff Gabriel
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-<a href="/devprocess.html">Software Development at a Startup</a>
+<a href="/dockerarmdeploy.html">Azure ARM Deployment of Docker</a>
+<p>
+<ul>
+<li><a href="/devprocess.html">Software Development at a Startup</a></li>
+</ul>
+</p>
 </div>
 ### Blog Introduction
 I started this new blog as it has been a long time since I maintained my work over at <a href="http://gabe19.blogspot.com" target="_blank">blogspot</a> and so many things have changed that it just seemed like time for a fresh start.
