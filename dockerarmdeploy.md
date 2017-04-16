@@ -21,10 +21,10 @@ I'll leave you to explore the <a href="https://docs.docker.com/engine/reference/
 
 ### The Azure Environment
 A lot of what goes into an ARM template is there to get an environment up inside a resource group on Azure. If you're not familiar yet with Azure and ARM, you may want to start with the following first:
-- https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-create-first-template
-- https://docs.microsoft.com/en-us/azure/virtual-machines/linux/
+- <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-create-first-template">https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-create-first-template</a>
+- <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/">https://docs.microsoft.com/en-us/azure/virtual-machines/linux/</a>
 
-If you have a look at the template you'll want to focus on the two extensions I have added to the virtual machine.
+If you have a look at <a href="https://github.com/jeffgabriel/ARMBasedDockerDeploy/blob/master/DeployRedis-template.json" target="_blank">the template</a> you'll want to focus on the two extensions I have added to the virtual machine.
 
 #### Docker Extension
 The Docker extension simply installs Docker on the VM. You can pass parameters to setup your docker container and in particular setup variables and files to help with compose operations. These are helpful but I have found that I need to run the custom script anyhow in most cases so I ignore this capability, but your experience may vary.
