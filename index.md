@@ -9,6 +9,7 @@ Thanks for visiting. The following post is the most recent:
 <div id="nav">
 <a href="/dockerarmdeploy.html">Azure ARM Deployment of Docker</a>
 <p>
+<h6>Other posts:</h6>
 <ul>
 <li><a href="/devprocess.html">Software Development at a Startup</a></li>
 </ul>
