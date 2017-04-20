@@ -12,7 +12,7 @@ Lately I've found lots of reasons to use Docker on individual VMs. First, I can 
 
 Enough about the motivation, let's look at how I've been doing this with Azure ARM templates. The full example source is over at <a href="https://github.com/jeffgabriel/ARMBasedDockerDeploy">GitHub</a> if you just want to get right into it.
 
-For this example we're deploying a Redis server with the base <a href="https://hub.docker.com/_/redis/" target="_blank">Redis docker image</a> for with the <a href="https://hub.docker.com/_/alpine/" target="_blank">Alpine</a> variant. <a href="https://alpinelinux.org/" target="_blank">Alpine</a>[*](#gliderlabs) is a very small (5MB) linux variant based on BusyBox and I use these variants whenever offered because I often store my own custom images and space savings is cost savings.  If you want to startup the Redis server on your local system (given that you have the Docker runtime available) simply execute the following command:
+For this example we're deploying a Redis server with the base <a href="https://hub.docker.com/_/redis/" target="_blank">Redis docker image</a> with the <a href="https://hub.docker.com/_/alpine/" target="_blank">Alpine</a> tag. <a href="https://alpinelinux.org/" target="_blank">Alpine</a>[*](#gliderlabs) is a very small (5MB) linux variant based on BusyBox and I use these variants whenever offered because I often store my own custom images and space savings is cost savings.  If you want to startup the Redis server on your local system (given that you have the Docker runtime available) simply execute the following command:
 
 ```shell
 docker run --name redis -p 6379:6379 -d redis:3.2-alpine
@@ -41,7 +41,7 @@ $publicIp = Get-AzureRmPublicIpAddress `
 $publicIp.DnsSettings.Fqdn
 ```
 #### Debugging
-If you get the VM to deploy but get errors from the custom scripts module the errors returned may seem unhelpful.  If you're having trouble figuring out what went run then SSH to the VM and see if there is something more helpful in the console output:
+If you get the VM to deploy but still get errors from the custom scripts module, these errors returned may seem unhelpful.  If you're having trouble figuring out what went wrong then SSH to the VM and see if there is something more helpful in the console output:
 ```shell
 sudo -i
 cat /var/lib/waagent/custom-script/download/0/stderr
