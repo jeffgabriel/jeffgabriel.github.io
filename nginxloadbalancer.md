@@ -1,5 +1,5 @@
 ## Dynamic Nginx Proxy Registration
-Due to some limitations in Azure's app gateway implementation I found myself putting an Nginx load balancer in front of an Azure Scale Set. Unfortunately, this presented a another problem in how I would let Nginx know that a new machine was added to or removed from the scale set. While the behavior I am about to describe can be implemented other ways - not least of which is just using Nginx Plus which does this out of the box - I think the problem is common enough to warrant a 'free' implementation. 
+Due to some limitations in Azure's app gateway implementation I found myself putting an Nginx load balancer in front of an Azure Scale Set. Unfortunately, this presented another problem in how I would let Nginx know that a new machine was added to or removed from the scale set. While the behavior I am about to describe can be implemented other ways - not least of which is just using Nginx Plus which does this out of the box - I think the problem is common enough to warrant a 'free' implementation. 
 ### Nginx Configuration
 Nginx has a very simple configuration to load balance requests among many servers. The base setup is just like that of any proxy, but you include multiple hosts in the upstream server (per [the docs](http://nginx.org/en/docs/http/load_balancing.html)):
 ```nginx
