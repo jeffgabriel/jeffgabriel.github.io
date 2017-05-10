@@ -41,12 +41,12 @@ $publicIp = Get-AzureRmPublicIpAddress `
 $publicIp.DnsSettings.Fqdn
 ```
 #### Debugging
-If you get the VM to deploy but get errors from the custom scripts module the errors returned may seem unhelpful.  If you're having trouble figuring out what went run then SSH to the VM and see if there is something more helpful in the console output:
+If you get the VM to deploy but get errors from the custom scripts module the errors returned may seem unhelpful. If you're having trouble figuring out what went wrong with your script then SSH to the VM and see if there is something more helpful in the console output:
 ```shell
 sudo -i
 cat /var/lib/waagent/custom-script/download/0/stderr
 ```
-Also note that any command you execute which writes to stderr will cause the extension to report failure. If you have something which does this in your script then send the output of that command somewhere else.
+Also note that any command you execute which writes to stderr will cause the extension to report failure. If you have something which does this even in non-fault scenarios in your script then send the output of that command somewhere else.
 #### Resources and Further Reading
 - <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/linux/extensions-customscript" target="_blank">Custom Script Extension documentation</a>
 - <a name="gliderlabs">*</a> When I am writing my own image I like to use the Gliderlabs Alpine base image instead of the official package.
