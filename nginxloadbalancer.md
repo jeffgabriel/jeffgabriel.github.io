@@ -2,7 +2,7 @@
 Due to some limitations in Azure's app gateway implementation I found myself putting an Nginx load balancer in front of an Azure Scale Set. Unfortunately, this presented a another problem in how I would let Nginx know that a new machine was added to or removed from the scale set. While the behavior I am about to describe can be implemented other ways - not least of which is just using Nginx Plus which does this out of the box - I think the problem is common enough to warrant a 'free' implementation. 
 ### Nginx Configuration
 Nginx has a very simple configuration to load balance requests among many servers. The base setup is just like that of any proxy, but you include multiple hosts in the upstream server (per [the docs](http://nginx.org/en/docs/http/load_balancing.html)):
-```conf
+```nginx
 http {
     upstream myapp1 {
         server srv1.example.com;
@@ -19,7 +19,11 @@ http {
     }
 }
 ```
-The issue in our situation of course is that we don't know those servers ahead of time. To solve this problem I need a server which comes online in the scale set to signal the nginx server and subsequently update the upstream configuration block with its dynamic ip address. I figured the best way to handle this was with a simple *curl* command in the startup script using the custom script extension for Linux. On the Nginx server side I decided the easiest way to stand up a simple REST endpoint would be with Node.js.
+The issue in our situation of course is that we don't know those servers ahead of time. To solve this problem I need a server which comes online in the scale set to signal the nginx server and subsequently update the upstream configuration block with its dynamic ip address. I figured the best way to handle this was with a simple *curl* command in the startup script using the custom script extension for Linux. The server hosts on port 8086, so the register command is:
+```bash
+curl http://nginxgateway.yourserver:8086/register/$(hostname --ip-address)
+```
+On the Nginx server side I decided the easiest way to stand up a simple REST endpoint would be with Node.js.
 
 > A small aside about Node - I have had a hard time figuring out why Node at all from an application design perspective. Sharing code with the front end hasn't really been motivating, and server side languages and  frameworks abound. In this case Node seemed perfect - cross platform,  easy install, lightweight server.
 
