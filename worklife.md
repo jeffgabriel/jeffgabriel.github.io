@@ -1,4 +1,10 @@
-﻿Startup Work and Life
+﻿---
+title: Startup Work and Life
+layout: default
+description: commentary on work life balance issues in twitter timeline
+copyright: copyright &copy; 2017 Jeff Gabriel
+---
+{{page.title}}
 ===
 There have been some interesting posts on Twitter about work-life issues latey - especially visible are those from DHH like this one
 
