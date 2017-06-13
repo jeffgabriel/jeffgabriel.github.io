@@ -1,18 +1,18 @@
-﻿---
+---
 title: Startup Work and Life
 layout: default
 description: commentary on work life balance issues in twitter timeline
 copyright: copyright &copy; 2017 Jeff Gabriel
 ---
-{{page.title}}
-===
+## {{page.title}}
+
 There have been some interesting posts on Twitter about work-life issues latey - especially visible are those from DHH like this one
 
-![](file:///C:/Users/jeff/Source/blog/jeffgabriel.github.io/assets/dhhtweet.png)
+![](/assets/dhhtweet.png)
 
 Others have shown up in my timeline too, like those outraged at Lyft and others
 
-![](file:///C:/Users/jeff/Source/blog/jeffgabriel.github.io/assets/tweet2.png)
+![](/assets/tweet2.png)
 
 The context isn't all about startups - in general it's the mystique of the harder-working, more committed, all-out grinder who is eating your lunch while you snooze. The fear that the other team is just better than you because they know what sacrifice is. 
 
