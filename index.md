@@ -7,11 +7,12 @@ copyright: copyright &copy; 2017 Jeff Gabriel
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-<a href="/dockerarmdeploy.html">Azure ARM Deployment of Docker</a>
+<a href="/nginxloadbalancer.html">Dynamic Nginx Proxy Registration</a>
 <p>
 <h6>Other posts:</h6>
 <ul>
 <li><a href="/devprocess.html">Software Development at a Startup</a></li>
+<li><a href="/dockerarmdeploy.html">Azure ARM Deployment of Docker</a></li>
 </ul>
 </p>
 </div>
