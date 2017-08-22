@@ -1,6 +1,7 @@
 ﻿---
-layout: default
 title: The Importance of Zeroes
+description: understanding how imputation impact forecast outcomes
+layout: default
 copyright: copyright &copy; 2017 Jeff Gabriel
 ---
 ## {{page.title}}
@@ -91,5 +92,3 @@ With a different definition for our data types I can simply run another session 
 ![good session results](assets/sessionresultgood.png)
 
 Now we see about +1.26&deg;C change by the year 2040 which matches much better with the reference graph above. That's the difference between sea level problems in 2100 and the Earth catching fire in 2100. Getting rid of those zeroes was really important! 
-
-The lesson then is that 
