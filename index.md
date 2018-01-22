@@ -7,15 +7,15 @@ copyright: copyright &copy; 2017 Jeff Gabriel
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-<a href="/minimumviablefeatures">Minimum Viable Features</a>
+<a href="/minimumviablefeatures" target="_self">Minimum Viable Features</a>
 <p>
 <h6>Other posts:</h6>
 <ul>
-<li><a href="/importantzeroes.html">The Importance of Zeroes</a></li>
-<li><a href="/worklife.html">Startup Work and Life</a></li>
-<li><a href="/nginxloadbalancer.html">Dynamic Nginx Proxy Registration</a></li>
-<li><a href="/devprocess.html">Software Development at a Startup</a></li>
-<li><a href="/dockerarmdeploy.html">Azure ARM Deployment of Docker</a></li>
+<li><a href="/importantzeroes.html" target="_self">The Importance of Zeroes</a></li>
+<li><a href="/worklife.html" target="_self">Startup Work and Life</a></li>
+<li><a href="/nginxloadbalancer.html" target="_self">Dynamic Nginx Proxy Registration</a></li>
+<li><a href="/devprocess.html" target="_self">Software Development at a Startup</a></li>
+<li><a href="/dockerarmdeploy.html" target="_self">Azure ARM Deployment of Docker</a></li>
 </ul>
 </p>
 </div>
