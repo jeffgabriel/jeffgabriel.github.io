@@ -7,10 +7,11 @@ copyright: copyright &copy; 2017 Jeff Gabriel
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-<a href="/importantzeroes.html">The Importance of Zeroes</a>
+<a href="/minimumviablefeatures">Minimum Viable Features</a>
 <p>
 <h6>Other posts:</h6>
 <ul>
+<li><a href="/importantzeroes.html">The Importance of Zeroes</a></li>
 <li><a href="/worklife.html">Startup Work and Life</a></li>
 <li><a href="/nginxloadbalancer.html">Dynamic Nginx Proxy Registration</a></li>
 <li><a href="/devprocess.html">Software Development at a Startup</a></li>
