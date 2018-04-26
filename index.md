@@ -7,10 +7,11 @@ copyright: copyright &copy; 2017 Jeff Gabriel
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-<a href="/minimumviablefeatures" target="_self">Minimum Viable Features</a>
+<a href="/elm" target="_self">Branching out with Elm</a>
 <p>
 <h6>Other posts:</h6>
 <ul>
+<li><a href="/minimumviablefeatures" target="_self">Minimum Viable Features</a></li>
 <li><a href="/importantzeroes.html" target="_self">The Importance of Zeroes</a></li>
 <li><a href="/worklife.html" target="_self">Startup Work and Life</a></li>
 <li><a href="/nginxloadbalancer.html" target="_self">Dynamic Nginx Proxy Registration</a></li>
