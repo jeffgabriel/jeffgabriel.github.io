@@ -3,6 +3,7 @@ title: Startup Work and Life
 layout: default
 description: commentary on work life balance issues in twitter timeline
 copyright: copyright &copy; 2017 Jeff Gabriel
+date: 2017-06-13 00:00:00 -0500
 ---
 ## {{page.title}}
 
