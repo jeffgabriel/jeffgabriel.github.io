@@ -2,15 +2,16 @@
 title: welcome
 layout: default
 description: introduction page for jeff gabriel's blog
-copyright: copyright &copy; 2024 Jeff Gabriel
+copyright: copyright &copy; 2025 Jeff Gabriel
 ---
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-<a href="/folklore" target="_self">Organizational Change and the Challenge of Porting Prior Company Practices</a>
+  <a href="/thefuture" target="_self">A Glimpse of the Future: coding with AI tools</a>
 <p>
 <h6>Other posts:</h6>
 <ul>
+<li><a href="/folklore" target="_self">Organizational Change and the Challenge of Porting Prior Company Practices</a></li>
 <li><a href="/elm" target="_self">Branching out with Elm</a></li>
 <li><a href="/minimumviablefeatures" target="_self">Minimum Viable Features</a></li>
 <li><a href="/importantzeroes.html" target="_self">The Importance of Zeroes</a></li>
@@ -28,6 +29,6 @@ My posts are almost always practical exlpanations of what I do every day which i
 
 I don't tweet anymore, but if you are on a historical excavation, check out <a href="https://twitter.com/jeffgabriel" class="twitter-follow-button" data-show-count="false">Twitter feed</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I currently work as the head of Engineering for <a href="http://www.datarobot.com" target="_blank">DataRobot</a> where we build software to enhance and simplify the use of AI & Machine Learning.
+I currently work as the head of Engineering for <a href="http://contentful.com" target="_blank">Contentful</a> where we build the best AI-infused digital experiences platform.
 
 You can see more about who I am and have been professionally over on <a href="https://www.linkedin.com/in/jeff-gabriel-88395b" target="_blank">LinkedIn</a>.
