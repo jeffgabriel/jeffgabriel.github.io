@@ -7,10 +7,11 @@ copyright: copyright &copy; 2025 Jeff Gabriel
 ## {{page.title}}
 Thanks for visiting. The following post is the most recent:
 <div id="nav">
-  <a href="/thefuture" target="_self">A Glimpse of the Future: coding with AI tools</a>
+  <a href="/ai-driven-future">AI-Driven Software 9 Months In</a>
 <p>
 <h6>Other posts:</h6>
 <ul>
+<li><a href="/thefuture" target="_self">A Glimpse of the Future: coding with AI tools</a></li>
 <li><a href="/folklore" target="_self">Organizational Change and the Challenge of Porting Prior Company Practices</a></li>
 <li><a href="/elm" target="_self">Branching out with Elm</a></li>
 <li><a href="/minimumviablefeatures" target="_self">Minimum Viable Features</a></li>

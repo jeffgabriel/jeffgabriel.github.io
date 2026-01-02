@@ -7,6 +7,7 @@ date: 2025-04-16 11:28:00 +0200
 ---
 ## {{page.title}}
 ###### published {{page.date}}
+1-2-2026: [follow-up](https://blog.jeffgabriel.com/ai-driven-future) posted
 
 In order to better understand coding with AI tooling I have been working fairly intensively on a <a href="https://github.com/jeffgabriel/eurorails_ai" target="_blank">hobby project</a> this past month. My experience seems to echo what I’ve seen others posting lately: these are tools and as such you need to think carefully about how you work with them. The results can be impressive and learning to use these tools is critically important for all software engineers. 
 
